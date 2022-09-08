@@ -22,3 +22,5 @@ This program is an event scheduler for the current days business hours, 8AM to 5
 * Included "reset.css" to this project.
 
 * Link to Deployed App:  
+
+![image](https://user-images.githubusercontent.com/108200823/189232952-4e57a5cb-d982-477d-af9f-3b9521dcaa41.png)
