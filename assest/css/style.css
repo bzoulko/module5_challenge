@@ -22,7 +22,12 @@ textarea{
 }
 
 .description{
-  white-space: pre-wrap;
+  white-space: pre-wrap;  
+
+  /* Added to align the description format. */
+  margin-top: 10px;
+  height: 100px;
+  /* border-color: white; */
 }
 
 .time-block{
@@ -41,8 +46,13 @@ textarea{
   color: #000000;
   border-top: 1px dashed #000000;
   
-  margin-top: -10px; /* Added */
-  margin-left: -15px; /* Added */
+  /* Added to align the hour format. */
+  margin-top: -10px;
+  margin-left: -30px;
+  width: 100px;
+  text-align: right;
+  padding-right: 10px;
+  height: 80px;
 }
 
 .past {
@@ -60,12 +70,24 @@ textarea{
   color: white;
 }
 
+.image-icon {
+  height: 20px;
+  width: 20px;
+}
+
 .saveBtn {
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+
+  /* Added to align the button format. */
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  padding-bottom: 10px;
+  border-color: white;
 }
 
 .saveBtn i:hover {

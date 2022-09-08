@@ -41,15 +41,20 @@
       <p id="currentDay" class="lead"></p>
     </header>
 
-    <section class="container form-control">
+    <!-- 
+      09/08/2022 - Changed <div> element to <section> for better ranking.
+                   Changed class value to help expand the entire page width. 
+    -->
+    <Section class="container-fluid col-form-label-lg">
+      
       <!-- Timeblocks go here -->
-      <form class="form-inline">
-        <section class="form-control hour">Time</section>
-        <input class="description" aria-label="Work Day Event">
-        <button class="saveBtn" type="save"></button>
-      </form>
+      <!-- <form class="form-inline">
+        <div class="hour">Time</div>
+        <input class="form-control description col-xl col-lg-9" aria-label="Work day Event">
+        <button class="btn saveBtn" type="button"><img class="image-icon" src="./images/save.png"></button>
+      </form> -->
 
-    </section>
+    </Section>
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
