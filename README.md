@@ -1,35 +1,24 @@
-# Module 04 Challenge Project - Coding Quiz Game
-This program is a coding quiz game that will challenge the contestant by asking
-several questions and having them select a response from the given set of answers.
-The game starts when the "Start Quiz" button is pressed. The game is over when all questions have been asked or the contestant runs out of time. 
+# Module 05 Challenge Project - Work Day Scheduler
+This program is an event scheduler for the current days business hours, 8AM to 5PM. The user can enter events throughout the day and save each event after it's keyed. Upon revisting the scheduler, the user can see what events have occured or are yet to come.
 
 
 ## Key elements in the game.
-* To start the game, user must click the "Start Quiz" button at the bottom of the
-  page.  if for any reason, when this button is clicked, the scollbar position will
-  automatically reposition to the top of the page making sure the contestant can see the timer and questions at the same time during each game play.
+* Uppon entering the website, you can see color coding that maps to:
+  - grey for past events
+  - pink for present events
+  - green for future evebnts
 
-* At the top of the page is an on-page referrance, "View high Scores", that will
-  shift the page focus to the Top 5 High Scores at the bottom of the page.
+* The area to the right of a time slot is for keying events. Click on thes fields and you can start
+  entering your event.
 
-* To win the game, you must answer all the questions correct in the alotted time
-  which is caluclated based on: 4 questions times 10 seconds per question giving
-  40 seconds per play.
-
-* During the game play, when a contestant selects an invalid response to a question,
-  10 seconds will be deducted from there alotted time.
-
-* To get into the high score list, you must select the correct answer to all the
-  questions in the time given. Assuming your score is high enough to make it into the
-  top 5.
+* Saving events is as simple as clicking the button to the far right of the are you keyed your event.
+  Once saved, for that day, you can revist and see all past, present, or future events.
 
 
 ### Spoecial Notes:
-* Built the application from the ground up. Added a couple of special features
-  outside the given requirements.
+* Modifications to the HTML were made in the class area for the timeblock section. This help
+  considerably when aligning the time line items acrossed the page. All other features are done in the javascript using jQuery.
 
 * Included "reset.css" to this project.
 
-* Link to Deployed App:  https://github.com/bzoulko/module4_challenge.git
-
-![image](https://user-images.githubusercontent.com/108200823/188766783-9fcef5e1-0279-4e5a-bf8c-28ed1b040d90.png)
+* Link to Deployed App:  
